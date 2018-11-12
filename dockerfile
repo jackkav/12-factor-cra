@@ -11,7 +11,7 @@ COPY . .
 RUN npm run build --production
 
 # Set the command to start the node server.
-CMD [ "npm", "run", "prep" ]
+CMD [ "npm", "run", "docker:start" ]
 
 # Tell Docker about the port we'll run on.
 EXPOSE 5000
