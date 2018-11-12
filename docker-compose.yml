@@ -6,3 +6,4 @@ services:
       - "5000:5000"
     environment:
       - LOCALE=nl
+      - GQL_ENDPOINT=http://1232.123.12321232132
