@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React {window.GQL_ENDPOINT}
+            Learn React {window.REACT_APP_TEST}
           </a>
         </header>
       </div>
